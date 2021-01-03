@@ -5,13 +5,11 @@ React Hook to input with validator
 ## Usage
 
 ```
-import React from "react";
-import ReactDOM from "react-dom";
 import { useInput } from "@jshooks/use-input";
 
 const App = () => {
-  const maxLen = (value) => value.length <= 10;
-  const name = useInput("Mr.", maxLen);
+  const validator = (value) => !value.includes("@");
+  const name = useInput("Mr.", validator);
   return (
     <div className="App">
       <h1>Hello</h1>
@@ -19,7 +17,4 @@ const App = () => {
     </div>
   );
 };
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
 ```
