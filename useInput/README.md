@@ -8,7 +8,7 @@ React Hook to input with validator
 import useInput from "@jshooks/use-input";
 
 const App = () => {
-  const validator = (value) => !value.includes("@");
+  const validator = (value) => value.length <= 20;
   const name = useInput("Mr.", validator);
   return (
     <div className="App">
