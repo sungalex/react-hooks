@@ -1,4 +1,4 @@
-# @react-hooks/use-input
+# @jshooks/use-input
 
 React Hook to input with validator
 
