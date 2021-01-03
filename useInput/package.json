@@ -1,0 +1,28 @@
+{
+  "name": "@jshooks/use-input",
+  "version": "1.0.1",
+  "description": "React Hook to input with validator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungalex/jshooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "input"
+  ],
+  "author": "Alex Lee <cloudallera@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sungalex/jshooks/issues"
+  },
+  "homepage": "https://github.com/sungalex/jshooks/#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
