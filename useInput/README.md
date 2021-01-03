@@ -7,7 +7,7 @@ React Hook to input with validator
 ```
 import React from "react";
 import ReactDOM from "react-dom";
-import { useInput } from "@react-hooks/use-input";
+import { useInput } from "@jshooks/use-input";
 
 const App = () => {
   const maxLen = (value) => value.length <= 10;
