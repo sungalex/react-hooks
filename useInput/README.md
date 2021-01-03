@@ -5,7 +5,7 @@ React Hook to input with validator
 ## Usage
 
 ```
-import { useInput } from "@jshooks/use-input";
+import useInput from "@jshooks/use-input";
 
 const App = () => {
   const validator = (value) => !value.includes("@");
