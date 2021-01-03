@@ -1,10 +1,10 @@
-# Nooks
+# jsHooks
 
 Collection of sexy React Hooks ready to install with NPM
 
 - [x] useInput
-- [x] useTabs
-- [x] useTitle
+- [ ] useTabs
+- [ ] useTitle
 - [ ] useClick
 - [ ] useConfirm
 - [ ] usePreventLeave
