@@ -2,9 +2,15 @@
 
 React Hook to input with validator
 
+## Installation
+
+```bash
+npm install @jshooks/use-input
+```
+
 ## Usage
 
-```
+```js
 import useInput from "@jshooks/use-input";
 
 const App = () => {
