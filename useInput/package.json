@@ -1,6 +1,6 @@
 {
   "name": "@jshooks/use-input",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Hook to input with validator",
   "main": "index.js",
   "repository": {
